@@ -7,7 +7,7 @@ export const Users = ({users}) => {
     const UserRow = (user,index) => {
 
         return(
-              <tr key = {index} className={index%2 === 0?'odd':'even'}>
+              <tr key = {index} >
                   <td>{index + 1}</td>
                   <td>{user.firstName}</td>
                   <td>{user.lastName}</td>
