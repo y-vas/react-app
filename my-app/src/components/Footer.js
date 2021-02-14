@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Footer = () => {
+export const Footer = () => {
 
   return (
     <FooterContainer>
@@ -23,9 +23,10 @@ const Footer = () => {
         </div>
         <div className="text-center p-3">
           © 2020 Copyright:
-          <a className="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <a className="text-dark" href="#"> Hello World </a>
         </div>
       </footer>
+
     </FooterContainer>
   );
 }
